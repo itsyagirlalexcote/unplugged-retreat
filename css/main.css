@@ -90,7 +90,9 @@ textarea {
 /* ------------ Base Header - Footer Styles ------------ */
 
 header, footer {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Header Styles */
@@ -136,7 +138,6 @@ footer .content-wrapper {
 .social-icons {
 
 }
-
 
 /* --------- Mobile Styles - Homepage --------- */
 
@@ -186,6 +187,10 @@ aside {
 
 /* ------------ Mobile Styles - FAQ ----------- */
 
+.faq {
+
+}
+
 .faq h2{
 
 }
@@ -199,7 +204,7 @@ aside {
 }
 
 .faq-content p {
-  
+
 }
 
 /* ------------ Mobile Styles - About --------- */

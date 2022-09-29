@@ -106,7 +106,8 @@ header .content-wrapper {
 }
 
 header nav {
-
+display: flex;
+flex: row;
 }
 
 /* Footer Styles */

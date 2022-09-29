@@ -93,6 +93,7 @@ header, footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 /* Header Styles */
@@ -102,12 +103,22 @@ header {
 }
 
 header .content-wrapper {
-
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: row wrap;
 }
 
 header nav {
 display: flex;
-flex: row;
+justify-content: space-around;
+align-items: center;
+flex-flow: row wrap;
+}
+
+header nav ul {
+display: flex;
+justify-content: space-around;
 }
 
 /* Footer Styles */
@@ -124,30 +135,39 @@ footer .content-wrapper {
 
 }
 
-.social {
+footer .social {
 
 }
 
-.social h4 {
+footer .social h4 {
 
 }
 
-.social p {
-
+footer .social p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.social-icons {
-
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /* --------- Mobile Styles - Homepage --------- */
 
 .hero-area {
-
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 aside {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .form-description {
@@ -166,12 +186,31 @@ aside {
 
 }
 
+.features {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 .features h2 {
 
 }
 
 .features p {
 
+}
+
+.reviews {/* flex not working on for this container */
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 .reviews h2 {
@@ -189,7 +228,17 @@ aside {
 /* ------------ Mobile Styles - FAQ ----------- */
 
 .faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .faq h2{
@@ -211,7 +260,10 @@ aside {
 /* ------------ Mobile Styles - About --------- */
 
 .mission {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .mission h2 {
@@ -227,7 +279,10 @@ aside {
 }
 
 .contact-section {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .contact-content h4 {

@@ -207,7 +207,7 @@ aside {
 
 }
 
-.reviews {/* flex not working on for this container */
+.reviews { /* flex not working on for this container, not centered... */
   display: flex;
   justify-content: center;
   flex-flow: row wrap;

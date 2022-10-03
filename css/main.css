@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  width: 100%;
 }
 
 /*
@@ -99,7 +100,7 @@ header, footer {
 /* Header Styles */
 
 header {
-
+  padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -107,6 +108,12 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-flow: row wrap;
+
+}
+
+.content-wrapper {
+  width: 89%;
+  /* check if this is the right width */
 }
 
 header nav {
@@ -114,21 +121,29 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 flex-flow: row wrap;
+width: 60%;
+margin: 0 70px;
 }
 
 header nav ul {
 display: flex;
 justify-content: space-around;
+padding: 0px 40px;
+}
+
+.header-divider {
+  width: 89%;
+  /* check if this is the right width */
 }
 
 /* Footer Styles */
 
 footer {
-  
 }
 
 footer .content-wrapper {
-
+width: 55%;
+margin: 50px 0;
 }
 
 .footer-content {
@@ -160,7 +175,10 @@ footer .social-icons {
 .hero-area {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
+  width: 89%;
+  margin: 0 20px 0 20px;
 }
 
 aside {
@@ -168,6 +186,8 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 89%;
+  margin: 0 20px 0 20px;
 }
 
 .form-description {
@@ -190,6 +210,8 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  width: 89%;
+  margin: 0 20px 0 20px;
 }
 
 .features .features-items {
@@ -197,6 +219,13 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 89%;
+  margin: 0 20px 0 20px;
+}
+
+.features article {
+  width: 89%;
+  /* check if this is the right width */
 }
 
 .features h2 {
@@ -211,6 +240,8 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  width: 89%;
+  margin: 0 20px 0 20px;
 }
 
 .reviews h2 {
@@ -218,7 +249,8 @@ aside {
 }
 
 .reviews h3 {
-
+  width: 89%;
+  /* check if this is the right width */
 }
 
 .reviews p {
@@ -232,6 +264,8 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 89%;
+  margin: 0 20px 0 20px;
 }
 
 .faq .content-wrapper {
@@ -239,6 +273,8 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 89%;
+  margin: 0 20px 0 20px;
 }
 
 .faq h2{
@@ -264,6 +300,8 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 89%;
+  margin: 0 20px 0 20px;
 }
 
 .mission h2 {
@@ -283,6 +321,8 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 89%;
+  margin: 0 20px 0 20px;
 }
 
 .contact-content h4 {

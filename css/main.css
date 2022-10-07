@@ -108,12 +108,10 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-flow: row wrap;
-
 }
 
 .content-wrapper {
   width: 89%;
-  /* check if this is the right width */
 }
 
 header nav {
@@ -122,18 +120,20 @@ justify-content: space-around;
 align-items: center;
 flex-flow: row wrap;
 width: 60%;
-margin: 0 70px;
+margin: 0 40px;
 }
 
 header nav ul {
 display: flex;
 justify-content: space-around;
-padding: 0px 40px;
+width: 100%;
+/* is this the right width percentage?? */
 }
 
 .header-divider {
-  width: 89%;
-  /* check if this is the right width */
+  width: 55%;
+  padding: ;
+  /* Need to add padding between the nav list items... 60px between items??*/
 }
 
 /* Footer Styles */
@@ -224,8 +224,8 @@ aside {
 }
 
 .features article {
-  width: 89%;
-  /* check if this is the right width */
+  width: 44%;
+  justify-content: center;
 }
 
 .features h2 {

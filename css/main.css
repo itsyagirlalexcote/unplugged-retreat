@@ -88,6 +88,56 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */ 
+
+/* General Styles */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Opend Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+}
+
+h3, h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125em;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 0.875em;
+  line-height: 1.285;
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+  font-style: normal;
+}
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -345,7 +395,7 @@ aside {
   }
 
   .features .features-item-description {
-    width: 50%;
+    width: 62%;
   }
 
   /* Reviews */
@@ -377,48 +427,52 @@ aside {
   footer .copyright {
     width: 100%;
   }
-}
 
 /* FAQ page tablet styles */
 
-.faq .content-wrapper {
-  justify-content: space-between;
-}
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
 
-.faq-content {
-  flex-basis: 45%;
-  /* flex-basis may be 40% instead of 45% */
-}
+  .faq-content {
+    flex-basis: 45%;
+    /* flex-basis may be 40% instead of 45% */
+  }
 
-.faq h2 {
-  width: 100%;
-}
+  .faq h2 {
+    width: 100%;
+  }
 
 /* About page tablet styles */
 
-.mission-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 20px;
-}
+  .mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+  }
 
-.mission-content p {
-  width: 45%;
-}
+  .mission-content p {
+    width: 45%;
+  }
 
-.contact-section .content-wrapper h2 {
-  width: 80%;
-}
+  .contact-section .content-wrapper h2 {
+    width: 80%;
+  }
 
-.contact-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 }
 
 @media only screen and (min-width:1200px) {
   /* Desktop styles here */
+
+  header {
+    padding: 15px 0;
+  }
 
   .content-wrapper {
     max-width: 960px;

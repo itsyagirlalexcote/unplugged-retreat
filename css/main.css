@@ -250,6 +250,7 @@ footer .copyright {
   background: url(../img/jake-melara-30679-unsplash.jpg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   min-height: 500px;
   display: flex;
   justify-content: center;
@@ -303,6 +304,7 @@ input[type=button] {
   background: url(../img/rawpixel-800820-unsplash1-72ppi.png);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;

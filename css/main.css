@@ -392,8 +392,20 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
-.map {
+.map figure {
+  position: relative;
+  padding-bottom: 125%;
+  height: 0;
+  width: 100%;
+  overflow: hidden;
+}
 
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .contact-section {

@@ -10,7 +10,7 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-* {border: 1px dotted red}
+/* * {border: 1px dotted red} */
 
 html {
   color: #222;
@@ -104,6 +104,8 @@ body {
 
 ul, ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -115,6 +117,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
 
 h3, h4 {
@@ -173,8 +176,8 @@ header .content-wrapper {
 .header-divider {
   background: #3a3a3a;
   width: 100%;
-  height: 1px;
-  margin: 10px 0 20px 0;
+  /* height: 1px; */
+  margin: 10px 0 10px 0;
 }
 
 header figure {
@@ -469,6 +472,7 @@ input[type=button] {
   header .content-wrapper {
     width: 100%;  
     justify-content: space-between;
+    /* flex-flow: row nowrap; */
   }
 
   header figure {
@@ -484,10 +488,16 @@ input[type=button] {
   }
 
   .header-divider {
-    display: flex;
+    display: none;
+    /* Makes nav dissapear....but Header is in the right place this way... */
+    
   }
 
   /* Hero Area */
+  .hero-area {
+    min-height: 600px;
+  }
+
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
@@ -502,7 +512,7 @@ input[type=button] {
     margin: 50px 0;
   }
 
-  aside .content-wrapper .form-description, aside .content-wrapper form {
+  aside .content-wrapper .form-description, aside .content-wrapper .form {
     width: 40%;
     margin: 0;
   }
@@ -520,8 +530,12 @@ input[type=button] {
     flex-basis: 50%;
   }
 
-  .features .features-item-description {
+  .features .feature-items {
     width: 62%;
+  }
+
+  .features i {
+    margin-bottom: 30px;
   }
 
   /* Reviews */
@@ -534,6 +548,7 @@ input[type=button] {
     width: 85%;
   }
 
+  .reviews article figure, 
   .reviews article div {
     width: 49%;
   }
@@ -549,7 +564,7 @@ input[type=button] {
     margin: 100px 0;
   }
 
-  .footer-content {
+  footer .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -593,7 +608,8 @@ input[type=button] {
     width: 100%;
   }
 
-  .faq h4, .faq p {
+  .faq h4, 
+  .faq p {
     font-size: .875em;
     line-height: 1.125;
   }
@@ -612,7 +628,7 @@ input[type=button] {
   }
 
   .map figure {
-    padding-bottom: 45%;
+    padding-bottom: 45.5%;
   }
 
   .contact-section .content-wrapper h2 {
@@ -658,7 +674,7 @@ input[type=button] {
   /* Hero */
   .hero-area h1 {
     font-size: 3.75em;
-    width: 60%;
+    width: 80%;
   }
 
   /* Aside */
@@ -714,7 +730,7 @@ input[type=button] {
 
   .mission h2,
   .contact-section .content-wrapper h2 {
-    width: 95%;
+    width: 100%;
     font-size: 3em;
   }
 

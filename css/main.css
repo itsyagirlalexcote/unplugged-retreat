@@ -16,7 +16,6 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
-  width: 100%;
 }
 
 /*
@@ -96,13 +95,14 @@ html {
 }
 
 body {
-  font-family: 'Opend Sans', sans-serif;
   font-size: 1em;
-  text-align: left;
+  font-family: 'Open Sans', sans-serif;
   color: #e2e3ed;
+  text-align: left;
 }
 
-ul, ol {
+ul, 
+ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -115,12 +115,13 @@ a {
 
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.875em;
   font-weight: 500;
+  font-size: 1.875em;
   margin: 0;
 }
 
-h3, h4 {
+h3, 
+h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
   margin: 20px 0;
@@ -128,7 +129,7 @@ h3, h4 {
 }
 
 p {
-  font-size: 0.875em;
+  font-size: .875em;
   line-height: 1.285;
 }
 
@@ -151,7 +152,8 @@ address {
 
 /* ------------ Base Header - Footer Styles ------------ */
 
-header, footer {
+header, 
+footer {
   background-color: #202322;
   display: flex;
   justify-content: center;
@@ -166,18 +168,18 @@ header {
 }
 
 header .content-wrapper {
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin: 0;
 }
 
 .header-divider {
-  background: #3a3a3a;
+  background: #3a3a3a; 
+  height: 0px;
   width: 100%;
-  /* height: 1px; */
-  margin: 10px 0 10px 0;
+  margin: 10px 0 20px 0;
 }
 
 header figure {
@@ -189,20 +191,20 @@ header figure {
 }
 
 header nav {
+  width: 60%;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  width: 60%;
-  text-transform: uppercase;
-  font-size: 1.125em;
-  font-weight: 700;
 }
 
 header nav ul {
+  width: 100%;
   display: flex;
   justify-content: space-around;
-  width: 100%;
 }
 
 header nav ul li {

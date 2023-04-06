@@ -341,7 +341,7 @@ input[type=button] {
 
 .features p {
   text-align: center;
-  margin: 0;
+  margin: auto;
 }
 
 .features i {
@@ -534,6 +534,10 @@ input[type=button] {
     width: 62%;
   }
 
+  .features p {
+    width: 63%;
+}
+
   .features i {
     margin-bottom: 30px;
   }
@@ -556,17 +560,6 @@ input[type=button] {
   .reviews h3 {
     width: 75%;
     margin: 0;
-  }
-
-  /* About contact */
-
-  .contact-content {
-    width: 45%;
-    margin: 0;
-  }
-
-  .contact-info {
-    width:auto;
   }
 
   /* Footer */
@@ -650,7 +643,12 @@ input[type=button] {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    width: 80%;
   }
+
+  .contact-content p {
+    width: 80%;
+  } 
 
   .contact-content h4 {
     font-size: 1.5em;

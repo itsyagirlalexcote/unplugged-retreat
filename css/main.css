@@ -235,7 +235,7 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
+} 
 
 footer .social-icons p {
   background-color: #527158;
@@ -491,8 +491,6 @@ input[type=button] {
 
   .header-divider {
     display: none;
-    /* Makes nav dissapear....but Header is in the right place this way... */
-    
   }
 
   /* Hero Area */
@@ -558,6 +556,17 @@ input[type=button] {
   .reviews h3 {
     width: 75%;
     margin: 0;
+  }
+
+  /* About contact */
+
+  .contact-content {
+    width: 45%;
+    margin: 0;
+  }
+
+  .contact-info {
+    width:auto;
   }
 
   /* Footer */
